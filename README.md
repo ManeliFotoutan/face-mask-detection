@@ -1,4 +1,3 @@
-"# face-mask-detection" 
 # Face Mask Detection
 
 This repository contains code for training a face mask detection model using TensorFlow and Keras. The project consists of two main parts:
@@ -24,22 +23,24 @@ This repository contains code for training a face mask detection model using Ten
 - Matplotlib
 
 Install the required dependencies using the following command:
-
 ```bash
 pip install -r requirements.txt
+‍‍‍‍```
 Usage
 Training:
 
 Place your dataset in the specified directory (DIRECTORY) with subdirectories for each class (e.g., with_mask, without_mask).
 
 Run the training script:
-
+```bash
 python train_mask_detector.py
+‍‍‍‍```
 Real-time Detection:
 
 After training, run the real-time detection script:
-
+```bash
 python real_time_mask_detection.py
+‍‍‍‍```
 Press 'q' to quit the video stream.
 
 Files
