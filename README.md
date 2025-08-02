@@ -34,15 +34,11 @@ Place your dataset in the specified directory (DIRECTORY) with subdirectories fo
 
 Run the training script:
 
-bash
-Copy code
 python train_mask_detector.py
 Real-time Detection:
 
 After training, run the real-time detection script:
 
-bash
-Copy code
 python real_time_mask_detection.py
 Press 'q' to quit the video stream.
 
