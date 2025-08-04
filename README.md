@@ -23,9 +23,11 @@ This repository contains code for training a face mask detection model using Ten
 - Matplotlib
 
 Install the required dependencies using the following command:
-pip install -r requirements.txt
+```bash
+pip install tensorflow opencv-python numpy imutils playsound pygame matplotlib
+```
 
-Usage
+## Usage
 Training:
 
 Place your dataset in the specified directory (DIRECTORY) with subdirectories for each class (e.g., with_mask, without_mask).
